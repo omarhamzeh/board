@@ -1,0 +1,43 @@
+.card-task {
+    margin-bottom: 25px;
+    width:250px;
+    color: rgb(61, 58, 58);
+    background-color: #8d97a0 !important;
+    border-color: #6c757d !important;
+    cursor: move;
+  }
+  
+  .stage-header {
+    color: rgb(46, 36, 36);
+    background-color: rgb(90, 89, 89) !important;
+  }
+  .card-task-option i {
+    color: #fff !important;
+    font-size: 14px;
+  }
+  
+  .card-task-option {
+    display: inline !important;
+    float: right !important;
+    cursor: pointer !important;
+  }
+  
+  .column-wrapper {
+    margin: 0px 20px;
+    padding: 0px 20px;
+    overflow-x: auto;
+  }
+  
+  .inner-column-wrapper {
+    width: 2350px;
+  }
+  
+  .card-column {
+    float: left;
+    margin-left: 20px;
+    width: 290px;
+  }
+  .card-column:first-of-type {
+    margin-left: 0;
+  }
+  
